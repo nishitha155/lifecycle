@@ -235,10 +235,7 @@ const TrackProducts = ({ state }) => {
                 <img src={selectedProduct.imageURL} alt={selectedProduct.itemName} />
                 <ModalDetails>
                   <h2>{selectedProduct.name}</h2>
-                  <div className="content-item">
-                    <span className="content-label">Id:</span>
-                    <p>{selectedProduct.id}</p>
-                  </div>
+                 
                   <div className="content-item">
                     <span className="content-label">Manufactured Date:</span>
                     <p>{selectedProduct.manufacturedDate}</p>
@@ -251,10 +248,7 @@ const TrackProducts = ({ state }) => {
                     <span className="content-label">Processing Method:</span>
                     <p>{selectedProduct.processingMethod}</p>
                   </div>
-                  <div className="content-item">
-                    <span className="content-label">Quantity:</span>
-                    <p>{selectedProduct.quantity}</p>
-                  </div>
+                  
                   <div className="content-item">
                     <span className="content-label">Price:</span>
                     <p>{ethers.formatEther(selectedProduct.price)} ETH</p>
