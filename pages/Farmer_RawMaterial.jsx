@@ -187,10 +187,7 @@ const Farmer_RawMaterials = ({ state }) => {
                   <span className="content-label">Location:</span>
                   <p>{selectedProduct.location}</p>
                 </div>
-                <div className="content-item">
-                <span className="content-label">Cultivation Practices:</span>
-                  <p>{selectedProduct.cultivationPratices}</p>
-                </div>
+                
                 <div className="content-item">
                   <span className="content-label">Pesticides:</span>
                   <p>{selectedProduct.pesticides}</p>
